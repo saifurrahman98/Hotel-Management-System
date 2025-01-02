@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The landing page of Kunwer Palace Hotel website">
+    <link rel="stylesheet" href="/css/index.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <title>KunwerPalace.com</title>
+</head>
+<body>
+
+    <header class="container-fluid">
+        
+        <h1><img src="./images/mainlogo.png" alt="mainlogo" width="180" ></h1>
+
+        <nav class="nav">        
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="#home" class="menu-nav__link active" ><i class="fas fa-home d-md-none mr-2"></i>home</a></li>
+                <li class="menu-nav__item"><a href="/html/reservation.html" target="_blank" class="menu-nav__link" ><i class="fas fa-key d-md-none mr-2"></i>reservations</a></li>
+                <li class="menu-nav__item"><a href="/html/about.html" target="_blank" class="menu-nav__link" ><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
+                <li class="menu-nav__item"><a href="/html/contact.html" target="_blank" class="menu-nav__link" ><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
+                <li class="menu-nav__item" id="unique-li"><a href="/html/contact.html" target="_blank" id="unique__link" >book now</a></li>
+                <li class="menu-nav__item"><a href="/html/login.html" class="menu-nav__link" >Login</a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="section1" id="home">
+        <div class="d-md-none carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/udaivilas1.jpg" alt="First Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption embedded-text">
+                        <h2 data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">Welcome to Kunwer Palace</h2>
+                        <p data-aos="flip-left" data-aos-delay="1000" data-aos-duration="1000">Experience a magical stay & make the most beautiful memories with your loved ones at the palace resort</p>
+                        <div class="text-center text-capitalize btn-div small-btn" data-aos="zoom-out" data-aos-delay="1000" data-aos-duration="1000">
+                            
+                                book now 
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="indicator" class="d-none d-md-block carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#indicator" data-slide-to="0" class="active"></li>
+                <li data-target="#indicator" data-slide-to="1"></li>
+                <li data-target="#indicator" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/udaivilas1.jpg" alt="First Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption d-none d-md-block embedded-text">
+                        <h2  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">Welcome to Kunwer Palace</h2>
+                        <p data-aos="flip-left" data-aos-delay="1000" data-aos-duration="1000">Experience a magical stay & make the most beautiful memories with your loved ones at the Palace resort</p>
+                        <div class="text-center text-capitalize btn-div" data-aos="zoom-out" data-aos-delay="1000" data-aos-duration="1000">
+                            <a href="/html/contact.html#book" target="_blank" class="text-white">
+                                <svg><rect></rect></svg>
+                                book now 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/holiday1.jpg" alt="Second Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption d-none d-md-block embedded-text">
+                        <h2>Welcome to Kunwer Palace</h2>
+                        <p>Experience a magical stay & make the most beautiful memories with your loved ones at the Palace resort</p>
+                        <div class="text-center text-capitalize btn-div">
+                            <a href="/html/contact.html#book" target="_blank" class="text-white">
+                                <svg><rect></rect></svg>
+                                book now 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pic2.jpg" alt="Third Image" class="d-block w-100 first-img">
+                    <div class="carousel-caption embedded-text">
+                        <h2>Welcome to Kunwer Palace</h2>
+                        <p>Experience a magical stay & make the most beautiful memories with your loved ones at the Palace resort</p>
+                        <div class="text-center text-capitalize btn-div">
+                            <a href="/html/contact.html#book" target="_blank" class="text-white">
+                                <svg><rect></rect></svg>
+                                book now 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#indicator" role="button" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon" ></span>
+                
+            </a>
+            <a href="#indicator" role="button" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon" ></span>
+                
+            </a>
+        </div>
+    </section>
+    <script src="/js/index.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

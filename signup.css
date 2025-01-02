@@ -1,0 +1,24 @@
+*{font-family: Poppins;}
+.img{
+    text-align: center;
+    margin-top: 70px;
+}
+#thanks{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(108, 101, 101);
+    font-weight: 500;
+}
+form{
+    color: rgb(108, 101, 101);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+}

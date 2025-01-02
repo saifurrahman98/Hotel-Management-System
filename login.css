@@ -1,0 +1,68 @@
+*{font-family: Poppins;}
+.img{
+    text-align: center;
+    margin-top: 70px;
+}
+header{
+    text-align: center;
+    font-weight: 450;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(108, 101, 101);
+}
+.t1{
+    text-align: center;
+    color: rgb(108, 101, 101);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+.t2{
+    color: rgb(108, 101, 101);
+    font-weight: 450;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+}
+form {
+    margin-top: 10px;
+    text-align: center;
+    height: 250px;
+    margin-left: 550px; /* Center the form */
+    width: 300px; /* Example max-width */
+    padding: 15px; /* Example padding */
+    background-color: #fff; /* Example background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+input {
+    font-size: 14px;
+    padding: 10px;
+    margin: 0; 
+    border: none; 
+    background-color: transparent; 
+    outline: none;
+}
+#Terms{
+    font-size: 13px;
+    margin-top: 50px;
+}
+#submitBtn{
+    color: rgb(66, 63, 63);
+    background-color: rgb(176, 153, 99);
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+#submitBtn:disabled{
+    background-color: rgb(223, 214, 193);
+    cursor: not-allowed;
+}

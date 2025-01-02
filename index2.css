@@ -1,0 +1,18 @@
+body{
+    border: 2px solid black;
+    margin: 0%;
+}
+ul.top{
+    border: 2px solid rgb(35, 33, 33);
+    background-color: rgb(35, 33, 33);
+    list-style-type: none;
+    margin: 0%;
+    height: 22px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a{
+    font-family: Unna;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
